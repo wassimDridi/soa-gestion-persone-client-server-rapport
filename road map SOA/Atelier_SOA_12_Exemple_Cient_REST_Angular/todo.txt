@@ -1,0 +1,21 @@
+TODO:
+Ourir le projet "BackEnd" nommé "spring-jpa-REST" avec IntelliJ
+Ajouter, dans la classe ProduitRESTController, l'annotation suivant 
+[ juste avant l'annotation @RequestMapping("/produits" )  ] : 
+@CrossOrigin(origins = "http://localhost:4200")
+Exécuter le projet pour publier le service web
+Accèder en mode console au dossier "workspace"
+Réaliser un clone du projet angular donné en GitHub via la commande suivante:
+  git clone https://github.com/MohamedZayani/client-rest-angular.git
+Accèder, en mode console, au dossier "client-rest-angular"
+Pour ouvrir le projet angular avec VS taper la commande:
+                            code . 
+Pour installer les packages nécessaires au fonctionnement du projet,  accèder au terminal du VS et taper la commande:
+                            npm install
+
+Pour exécuter le projet angular, taper la commande:
+                            npm   run   start 
+
+
+Accèder à l'adresse suivante pour visualiser le résulat:
+                 http://localhost:4200/
